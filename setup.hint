@@ -1,0 +1,4 @@
+category: Graphics
+requires: cygwin libaa1 libcdk1 libexif12 libgphoto2 libintl8 libjpeg62 libncurses8 libpopt0 libreadline6
+sdesc: "GPhoto2 CLI frontend"
+ldesc: "gphoto2 is a command-line frontend to libgphoto2."
