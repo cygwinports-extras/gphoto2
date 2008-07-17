@@ -3,28 +3,28 @@ gphoto2
 gphoto2 is a command-line frontend to libgphoto2.
 
 Runtime requirements:
-  cygwin-1.5.25-7
+  cygwin-1.5.25-15
   libaa1-1.4rc5-1
   libcdk1-5.0.20060507-1
   libexif12-0.6.16-2
-  libgphoto2-2.4.1-1
+  libgphoto2-2.4.2-1
   libintl8-0.15-1
   libjpeg62-6b-12
   libncurses8-5.5-3
-  libpopt0-1.13-1
-  libreadline6-5.2.7-9
+  libpopt0-1.14-1
+  libreadline6-5.2.12-10
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.61-1
   automake1.10-1.10.1-1
-  binutils-20060817-1
-  cygport-0.3.9-1
+  binutils-20080523-2
+  cygport-0.3.12-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   libtool-2.2.2-2
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical website:
@@ -36,29 +36,29 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gphoto2-2.4.1-X-src.tar.bz2
+  unpack gphoto2-2.4.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gphoto2-2.4.1-X.cygport all
+  cygport ./gphoto2-2.4.2-X.cygport all
 
 This will create:
-  /usr/src/gphoto2-2.4.1-X-src.tar.bz2
-  /usr/src/gphoto2-2.4.1-X.tar.bz2
+  /usr/src/gphoto2-2.4.2-X-src.tar.bz2
+  /usr/src/gphoto2-2.4.2-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/gphoto2.exe
-  /usr/share/doc/gphoto2-2.4.1/ABOUT-NLS
-  /usr/share/doc/gphoto2-2.4.1/COPYING
-  /usr/share/doc/gphoto2-2.4.1/ChangeLog
-  /usr/share/doc/gphoto2-2.4.1/INSTALL
-  /usr/share/doc/gphoto2-2.4.1/NEWS
-  /usr/share/doc/gphoto2-2.4.1/README
-  /usr/share/doc/gphoto2-2.4.1/TODO
-  /usr/share/doc/gphoto2-2.4.1/test-hook.sh
+  /usr/share/doc/gphoto2-2.4.2/ABOUT-NLS
+  /usr/share/doc/gphoto2-2.4.2/COPYING
+  /usr/share/doc/gphoto2-2.4.2/ChangeLog
+  /usr/share/doc/gphoto2-2.4.2/INSTALL
+  /usr/share/doc/gphoto2-2.4.2/NEWS
+  /usr/share/doc/gphoto2-2.4.2/README
+  /usr/share/doc/gphoto2-2.4.2/TODO
+  /usr/share/doc/gphoto2-2.4.2/test-hook.sh
   /usr/share/locale/az/LC_MESSAGES/gphoto2.mo
   /usr/share/locale/cs/LC_MESSAGES/gphoto2.mo
   /usr/share/locale/da/LC_MESSAGES/gphoto2.mo
@@ -92,6 +92,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.4.2-1 -----
+Version bump.
 
 ----- version 2.4.1-1 -----
 Initial release for Cygwin.

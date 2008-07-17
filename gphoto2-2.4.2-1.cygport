@@ -1,0 +1,10 @@
+#inherit gnome2
+
+DESCRIPTION="CLI frontend to libgphoto2"
+HOMEPAGE="http://gphoto.sourceforge.net/"
+SRC_URI="mirror://sourceforge/gphoto/${P}.tar.bz2"
+
+DIFF_EXCLUDES="auto-m4"
+
+#ACLOCAL_FLAGS="-I auto-m4"
+CYGCONF_ARGS="--with-cdk-prefix=/usr"
