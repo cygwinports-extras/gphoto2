@@ -5,10 +5,10 @@ gphoto2 is a command-line frontend to libgphoto2.
 Runtime requirements:
   cygwin-1.5.25-15
   libaa1-1.4rc5-1
-  libcdk1-5.0.20060507-1
+  libcdk0-5.0.20081105-1
   libexif12-0.6.16-2
-  libgphoto2-2.4.2-1
-  libintl8-0.15-1
+  libgphoto2-2.4.3-1
+  libintl8-0.17-2
   libjpeg62-6b-12
   libncurses8-5.5-3
   libpopt0-1.14-1
@@ -16,13 +16,13 @@ Runtime requirements:
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20080523-2
-  cygport-0.3.12-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.2-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
-  libtool-2.2.2-2
+  libtool-2.2.6a-1
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
@@ -36,29 +36,29 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gphoto2-2.4.2-X-src.tar.bz2
+  unpack gphoto2-2.4.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gphoto2-2.4.2-X.cygport all
+  cygport ./gphoto2-2.4.3-X.cygport all
 
 This will create:
-  /usr/src/gphoto2-2.4.2-X-src.tar.bz2
-  /usr/src/gphoto2-2.4.2-X.tar.bz2
+  /usr/src/gphoto2-2.4.3-X-src.tar.bz2
+  /usr/src/gphoto2-2.4.3-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/gphoto2.exe
-  /usr/share/doc/gphoto2-2.4.2/ABOUT-NLS
-  /usr/share/doc/gphoto2-2.4.2/COPYING
-  /usr/share/doc/gphoto2-2.4.2/ChangeLog
-  /usr/share/doc/gphoto2-2.4.2/INSTALL
-  /usr/share/doc/gphoto2-2.4.2/NEWS
-  /usr/share/doc/gphoto2-2.4.2/README
-  /usr/share/doc/gphoto2-2.4.2/TODO
-  /usr/share/doc/gphoto2-2.4.2/test-hook.sh
+  /usr/share/doc/gphoto2-2.4.3/ABOUT-NLS
+  /usr/share/doc/gphoto2-2.4.3/COPYING
+  /usr/share/doc/gphoto2-2.4.3/ChangeLog
+  /usr/share/doc/gphoto2-2.4.3/INSTALL
+  /usr/share/doc/gphoto2-2.4.3/NEWS
+  /usr/share/doc/gphoto2-2.4.3/README
+  /usr/share/doc/gphoto2-2.4.3/TODO
+  /usr/share/doc/gphoto2-2.4.3/test-hook.sh
   /usr/share/locale/az/LC_MESSAGES/gphoto2.mo
   /usr/share/locale/cs/LC_MESSAGES/gphoto2.mo
   /usr/share/locale/da/LC_MESSAGES/gphoto2.mo
@@ -92,6 +92,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.4.3-1 -----
+Version bump.
 
 ----- version 2.4.2-1 -----
 Version bump.
