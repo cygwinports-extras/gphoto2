@@ -3,30 +3,30 @@ gphoto2
 gphoto2 is a command-line frontend to libgphoto2.
 
 Runtime requirements:
-  cygwin-1.7.0-50
-  libaa1-1.4rc5-1
+  cygwin-1.7.0-61
+  libaa1-1.4rc5-10
   libcdk0-5.0.20090215-1
   libexif12-0.6.16-10
   libgcc1-4.3.2-2
-  libgphoto2_2-2.4.6-1
-  libgphoto2_port0-2.4.6-1
+  libgphoto2_2-2.4.7-1
+  libgphoto2_port0-2.4.7-1
   libintl8-0.17-11
-  libjpeg62-6b-20
+  libjpeg7-7-10
   libncurses9-5.7-14
   libpopt0-1.6.4-4
-  libreadline6-5.2.13-11
+  libreadline7-6.0.3-2
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
   automake1.10-1.10.2-10
-  binutils-20080624-2
-  cygport-0.9.7-1
-  gawk-3.1.6-2
+  binutils-2.19.51-1
+  cygport-0.9.9-1
+  gawk-3.1.7-1
   gcc4-core-4.3.2-2
-  libtool-2.2.6a-1
+  libtool-2.2.7a-14
   make-3.81-1
-  pkg-config-0.23a-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -38,60 +38,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gphoto2-2.4.5-X-src.tar.bz2
+  unpack gphoto2-2.4.7-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gphoto2-2.4.5-X.cygport all
+  cygport ./gphoto2-2.4.7-X.cygport all
 
 This will create:
-  /usr/src/gphoto2-2.4.5-X-src.tar.bz2
-  /usr/src/gphoto2-2.4.5-X.tar.bz2
+  /usr/src/gphoto2-2.4.7-X-src.tar.bz2
+  /usr/src/gphoto2-2.4.7-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/gphoto2.exe
-  /usr/share/doc/gphoto2/COPYING
-  /usr/share/doc/gphoto2/ChangeLog
-  /usr/share/doc/gphoto2/NEWS
-  /usr/share/doc/gphoto2/README
-  /usr/share/doc/gphoto2/TODO
-  /usr/share/doc/gphoto2/test-hook.sh
-  /usr/share/locale/az/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/cs/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/da/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/de/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/en_GB/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/es/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/eu/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/fi/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/fr/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/hu/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/it/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/ja/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/nb/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/nl/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/pa/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/pl/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/ro/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/ru/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/rw/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/sk/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/sl/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/sr/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/sv/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/uk/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/vi/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/zh_CN/LC_MESSAGES/gphoto2.mo
-  /usr/share/locale/zh_TW/LC_MESSAGES/gphoto2.mo
-  /usr/share/man/man1/gphoto2.1.gz
-
-------------------
-
 Port Notes:
+
+----- version 2.4.7-1 -----
+Version bump.
 
 ----- version 2.4.5-1 -----
 Initial release for Cygwin 1.7.
