@@ -8,4 +8,5 @@ PATCH_URI="2.4.2-check-library.patch
 
 DIFF_EXCLUDES="auto-m4"
 
+CPPFLAGS+=" -I/usr/include/ncurses"
 CYGCONF_ARGS="--with-cdk-prefix=/usr"

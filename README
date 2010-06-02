@@ -3,31 +3,30 @@ gphoto2
 gphoto2 is a command-line frontend to libgphoto2.
 
 Runtime requirements:
-  cygwin-1.7.0-61
+  cygwin-1.7.5-1
   libaa1-1.4rc5-10
-  libcdk0-5.0.20090215-1
-  libexif12-0.6.16-10
-  libgcc1-4.3.2-2
-  libgphoto2_2-2.4.7-1
-  libgphoto2_port0-2.4.7-1
+  libcdk0-5.0.20090215-2
+  libexif12-0.6.17-10
+  libgcc1-4.3.4-3
+  libgphoto2_2-2.4.9-1
+  libgphoto2_port0-2.4.9-1
   libintl8-0.17-11
   libjpeg7-7-10
-  libncurses9-5.7-14
+  libncurses10-5.7-18
   libpopt0-1.6.4-4
   libreadline7-6.0.3-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-10
-  automake1.10-1.10.2-10
-  binutils-2.19.51-1
-  cygport-0.9.9-1
+  autoconf2.5-2.65-1
+  automake1.10-1.10.3-1
+  binutils-2.20.51-2
+  cygport-0.9.84-1
   gawk-3.1.7-1
-  gcc4-core-4.3.2-2
-  libtool-2.2.7a-14
+  gcc4-core-4.3.4-3
+  libtool-2.2.7a-15
   make-3.81-1
   pkg-config-0.23b-10
-  sed-4.1.5-2
 
 Canonical website:
   http://gphoto.sourceforge.net/
@@ -38,19 +37,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gphoto2-2.4.7-X-src.tar.bz2
+  unpack gphoto2-2.4.9-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gphoto2-2.4.7-X.cygport all
+  cygport ./gphoto2-2.4.9-X.cygport all
 
 This will create:
-  /usr/src/gphoto2-2.4.7-X-src.tar.bz2
-  /usr/src/gphoto2-2.4.7-X.tar.bz2
+  /usr/src/gphoto2-2.4.9-X-src.tar.bz2
+  /usr/src/gphoto2-2.4.9-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 2.4.9-1 -----
+Version bump.
 
 ----- version 2.4.7-1 -----
 Version bump.
