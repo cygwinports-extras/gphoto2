@@ -1,4 +1,4 @@
 category: Graphics
-requires: libaa1 libcdk0 libexif12 libgcc1 libgphoto2_2 libgphoto2_port0 libintl8 libjpeg7 libncurses10 libpopt0 libreadline7
+requires: libaa1 libcdk0 libexif12 libgcc1 libgphoto2_2 libgphoto2_port0 libintl8 libjpeg8 libncurses10 libpopt0 libreadline7
 sdesc: "GPhoto2 CLI frontend"
 ldesc: "gphoto2 is a command-line frontend to libgphoto2."
