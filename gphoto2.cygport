@@ -1,15 +1,18 @@
 #inherit gnome2
 
 NAME="gphoto2"
-VERSION=2.4.11
+VERSION=2.5.2
 RELEASE=1
 CATEGORY="Graphics"
 SUMMARY="GPhoto2 CLI frontend"
 DESCRIPTION="gphoto2 is a command-line frontend to libgphoto2."
 HOMEPAGE="http://gphoto.sourceforge.net/"
 SRC_URI="mirror://sourceforge/gphoto/${NAME}-${VERSION}.tar.bz2"
-PATCH_URI="2.4.2-check-library.patch
-           2.4.3-gettext017.patch"
+PATCH_URI="
+	2.4.2-check-library.patch
+	2.4.3-gettext017.patch
+	2.5.2-automake.patch
+"
 
 DIFF_EXCLUDES="auto-m4"
 
